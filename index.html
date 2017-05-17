@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quiz HTML</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <h1>Quiz HTML correction</h1>
+        <div class="container">
+            <h2><span>1</span> - Les informations relatives à une page web, comme son titre, son encodage, ses fichiers liés sont contenus dans : </h2>
+        <p>La balise  <b>&lt;head&gt;</b></p>
+            <hr>
+        <h2><span>2</span> - Quelle est la syntaxe du commentaire en Html</h2>
+            <h4>&lt;!-- Ceci est un commentaire --&gt;</h4>
+            <hr>
+        <h2><span>3</span> - Comment peut-on ouvrir un lien dans un nouvel onglet ?</h2>
+            <p><b>&lt;a href="http://www.coda.fr" target="_blank" &gt; Site CODA&lt;/a&gt;</p>
+            Exemple : <a href="http://www.coda.fr" target="_blank" > Site CODA</a></a>
+            <hr>
+            <h2><span>4</span> - Quelle est la bonne syntaxe pour intégrer une image ?</h2>
+            <p><b>&lt;img src="logo.jpg" alt="Logo Coda"&gt;</b></p>
+            <hr>
+            <h2><span>5</span> -Quelle est la balise utilisée pour créer une liste ordonnée ?</h2>
+            <p><b>&lt;ol&gt;</b></p>
+            Exemple :
+            <ol>
+                <li>Chèvre</li>
+                <li>Vache</li>
+                <li>Mouton</li>
+            </ol>
+            <hr>
+            <h2><span>6</span> -Quelle est la balise utilisée pour créer une liste ordonnée ?</h2>
+            <p><b>&lt;select name="ville"&gt;</b></p>
+                    Exemple :
+            <select name="ville">
+                <option value="Mme" selected="selected">Alès</option>
+                <option value="Mr">Narbonne</option>
+            </select>
+            <hr>
+            <h2><span>7</span> - Comment afficher un sélecteur de couleur en html ?</h2>
+            <p><b>&lt;input type="color"&gt;</b></p>
+            Exemple : <input type="color">
+            <hr>
+            <h2><span>8</span> - Quelle nouvelle balise de section permet de regrouper un contenu à coté du contenu principal du document ?</h2>
+            <p><b>&lt;aside&gt;</b></p>
+            Exemple :
+            <aside>&lt; aside &gt;</aside>
+            <section>&lt; section &gt;</section>
+            <hr>
+            <h2><span>9</span> - La nouvelle balise <time> permet de baliser une date structurée. Quelle serait sa syntaxe pour le 1er avril 2012 à 13h37 ?</h2>
+            <p><b>&lt;time datetime="2012-04-01T13:37:00Z"&gt;&lt;/time&gt;</b></p>
+            Exemple : <time datetime="2012-04-01T13:37:00Z">1er avril 2012 à 13h37</time>
+            <hr>
+            <h2><span>10</span> - Quelle est la méthode pour associer une légende complète à une illustration ?</h2>
+            <p><b>&lt;figure&gt;&lt;img src="image.jpg"&gt;&lt;figcaption&gt;La légende...&lt;figcaption&gt;&lt;figure&gt;</b></p>
+            Exemple :
+            <figure>
+                <img src="https://s-media-cache-ak0.pinimg.com/736x/4e/5c/f7/4e5cf7d4ccb9c59b6620a9c71944d51e.jpg" alt="mon image" />
+                <figcaption>Légende associée : Verrryyyy Goooood !!!</figcaption>
+            </figure>
+            <hr>
+            <hr>
+            <h2><span>11</span> - Comment représenter une barre de progression à 50% d'avancement ?</h2>
+            <p><b>&lt;progress value="50" max="100"&gt;50%&lt;/progress&gt;</b></p>
+            Exemple : <progress value="70" max="100">70%</progress>
+            <hr>
+            <h2><span>12</span> - Comment associer une liste de choix/suggestions à un champ d'entrée texte ?</h2>
+            <p><b>&lt;input list="fruits"&gt;&lt;datalist id="fruits"&gt;&lt;option&gt;Kiwi&lt;/option&gt;&lt;option&gt;Orange&lt;/option&gt;&lt;option&gt;Mangue&lt;/option&gt;&lt;datalist&gt;</b></p>
+            Exemple :
+            <input list="fruits" placeholder="Entrez un nom de fruit">
+            <datalist id="fruits">
+                <option>Kiwi</option>
+                <option>Orange</option>
+                <option>Mangue</option>
+            </datalist>
+            <hr>
+            <h2><span>13</span> - Quel attribut permet d'afficher une image par défaut pour l'élément &lt;video&gt; ?</h2>
+            <p><b>&lt;video poster="apercu.jpg"&gt;</b></p>
+            Exemple : <br>
+            <video src="http://libre-ouvert.toile-libre.org/data/documents/stallman_on_patent_absurdity_512x288.ogv" poster="big-buck-bunny.jpg">
+            </video>
+            <hr>
+            <h2><span>14</span> - Quelle balise doit permettre l'inclusion de sous-titres textes dans les vidéos lues avec &lt;video&gt; ?</h2>
+            <p><b>&lt;track src="soustitres.vtt&gt;</b></p>
+            Exemple : <br>
+             <br>
+            AVANT DE LIRE LA VIDÉO, cliquez sur l'icone (barrée) entre la barre de son et l'icone de plein écran, pour activer les sous-titres en français!!!
+            <br>
+            <br>
+            <video controls="controls">
+                <source src="http://libre-ouvert.toile-libre.org/data/documents/stallman_on_patent_absurdity_512x288.ogv" type="video/ogg">
+                <track kind="subtitles" srclang="fr-FR" label="Français" src="subtitles.fr.vtt" lang="fr">
+                Votre navigateur ne prend pas en charge la vidéo HTML5
+            </video>
+            <hr>
+            <h2><span>15</span> - Que signifie HTML ?</h2>
+            <p><b>Hyper Text Markup Language</b></p>
+            <hr>
+            <h2><span>16</span> - Quelle balise permet de définir un élément textuel important ?</h2>
+            <p><b>&lt;strong&gt;</b></p>
+            <hr>
+        </div>
+    </body>
+</html>
